@@ -1,0 +1,14 @@
+div {
+    border: 10px dashed goldenrod;
+    margin: 24px 100px;
+    padding: 24px 36px;
+    background-color: lightblue;
+}
+
+p {
+    border: 20px solid blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: hotpink;
+    border-radius: 50%;
+}
