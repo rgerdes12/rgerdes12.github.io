@@ -1,0 +1,46 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#image1 {
+    width: 100px;
+    margin-top: 60px;
+    border: 5px solid pink;
+    padding: 8px;
+    background-color: white;
+}
+#frame1 {
+    width: 80px;
+    border: 6px solid rgb(166, 48, 5);
+    padding: 8px;
+    margin: 16px;
+    background-color: antiquewhite
+}
+
+#image2 {
+    width: 100%;
+    display: block;
+}
+
+#frame2 {
+    width: 100px;
+    border: 5px solid black;
+    padding:4px;
+    margin-top: 90px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+#image3 {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    font-family: cursive;
+}
