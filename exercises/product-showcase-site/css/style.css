@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.red-nike {
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(240, 174, 174);
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.brown-nike {
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(7, 164, 178);
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.black-nike {
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(226, 145, 173);
+    text-align: center;
+    padding: 48px 0px;
+}
