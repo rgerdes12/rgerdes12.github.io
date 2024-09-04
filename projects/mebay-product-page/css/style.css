@@ -7,13 +7,11 @@ body {
     font-family: sans-serif;
 }
 
-#page-layput {
+#page-layout {
     display: grid;
     grid-template-columns: 250px 175px 100px;
     grid-template-areas:
-        "column-one"
-        "column-two"
-        "column-three";
+        "column-one column-two column-three";
 }
 
 #sidebar ul {
@@ -37,19 +35,18 @@ body {
 #column-one {
     display: flex;
     flex-direction: column;
-    grid-area: header;
+    grid-area: column-one;
     padding: 150px;
 }
 
 #column-two {
     display: flex;
     flex-direction: column;
-    grid-area: main;
+    grid-area: column-two;
 }
 
 #column-three {
     display: flex;
-    flex-direction: column;
-    grid-area: sidebar;
+    grid-area: column-three;
     border-radius: 14px;
 }
