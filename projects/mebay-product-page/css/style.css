@@ -46,15 +46,15 @@ img {
     flex-direction: column;
     grid-area: column-two;
     margin-right: 90px;
+    margin-top: 90px
 }
 
 #column-three {
     flex-direction: column;
     grid-area: column-three;
     margin-left: 10px;
+    margin-top: 90px;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 30px;
     text-align: left;
 }
 
@@ -63,3 +63,10 @@ img {
     color: blue;
     text-decoration: underline;
 }
+
+#column-three #border {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+}
+
