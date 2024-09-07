@@ -1,0 +1,38 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-container {
+    width: 350px;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 5px solid gold;
+}
+
+.card-style-3 {
+    border: 15px solid gold;
+    background: radial-gradient(
+        at top left,
+        goldenrod,
+        yellow
+    );
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.pokemon-header .name .health {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.card-style-3 .health {
+}
