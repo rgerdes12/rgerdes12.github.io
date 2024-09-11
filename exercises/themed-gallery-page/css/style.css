@@ -21,9 +21,9 @@ body {
 }
 
 #hero h1 {
-    font-size: 8vw;
-    padding: 15vw;
+    padding: 150px;
     text-align: center;
+    margin-bottom: 300px;
 }
 
 .basic-grid-gallery {
@@ -40,4 +40,8 @@ body {
     
 .basic-grid-gallery img {
     width: 100%;
+}
+
+@media screen and (min-width: 1300px) {
+    font-size: 100px;
 }
