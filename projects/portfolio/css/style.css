@@ -65,9 +65,8 @@ body {
 }
 
 #gallery .card {
-    display: inline-flex;
+    display: inline-block;
     width: 300px;
-    grid-template-columns: 1fr 1fr;
 }
 
 .basic-grid-gallery {
