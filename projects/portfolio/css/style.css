@@ -64,3 +64,16 @@ body {
     margin-bottom: 30px;
 }
 
+#gallery .card {
+    display: inline-block;
+    width: 300px;   
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    padding: 24px;
+    border: 10px solid #333333;
+    gap: 24px;
+}
