@@ -20,6 +20,86 @@ body {
 
 #navbar a {
     text-decoration: none;
+    color: goldenrod;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar #logo-link {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: goldenrod;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/* ********index2********* */
+
+#navbar-2 {
+    background: linear-gradient(
+        to bottom,
+        gold,
+        yellow,
+        gold
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: orange;
+    padding: 24px;
+}
+
+#navbar-2 img {
+    width: 150px;
+}
+
+#navbar-2 #logo-link {
+    margin-right: auto;
+}
+
+#navbar-2 .cta-button-2 {
+    background-color: white;
+    color: orange;
+    border-radius: 36px;
+    border: 2px solid orange;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/* ********index3********* */
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        green,
+        #3E6D3E
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
     color: white;
     padding: 24px;
 }
@@ -51,7 +131,7 @@ body {
     height: 200vh;
 }
 
-#header {
+#header-2 {
     position: sticky;
     top: 0px;
 }
