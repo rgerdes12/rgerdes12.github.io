@@ -455,11 +455,17 @@ body {
 
     #nav {
         flex-direction: column;
-        align-items: center;
-        flex: 100px;
+        flex: 200px;
     }
 }
 
 @media screen and (max-width: 480px) {
-
+    #grid-layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "left-accent  card-1  card-2  card-3  right-accent";
+    }
+    #shield-image {
+        display: none;
+    }
 }
