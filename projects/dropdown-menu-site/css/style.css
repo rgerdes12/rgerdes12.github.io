@@ -6,3 +6,89 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/* ********Home Page********* */
+
+#navbar {
+    background: linear-gradient(to bottom, goldenrod, rgb(156, 81, 24));
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, goldenrod, rgb(156,81,24));
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(156,81,24);
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: goldenrod;
+}
+
+/* ********3 HTML Pages********* */
+
+.single-column {
+    width: 50%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.background {
+    background-color: burlywood;
+    padding: 48px 0px;
+}
+
+img {
+    width: 50%;
+    min-width: 400px;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ********Home Page********* */
+
