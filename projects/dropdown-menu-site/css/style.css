@@ -95,5 +95,6 @@ h1 {
     text-align: center;
 }
 
-/* ********Home Page********* */
-
+@media screen and (max-width: 835px) and (min-width: 424px) {
+    
+}
