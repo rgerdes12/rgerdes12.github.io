@@ -34,6 +34,11 @@ body {
     background: linear-gradient(to top, goldenrod, rgb(156,81,24));
 }
 
+.background {
+    background-color: burlywood;
+    padding: 48px 0px;
+}
+
 .dropdown-container {
     position: relative;
 }
