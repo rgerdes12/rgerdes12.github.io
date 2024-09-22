@@ -6,13 +6,30 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
 /* ********Home Page********* */
+
+.background-home {
+    background-color: burlywood;
+    padding: 48px 0px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../image/homepage-hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ********Three Pages********* */
 
 #navbar {
     background: linear-gradient(to bottom, goldenrod, rgb(156, 81, 24));
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 #navbar a {
@@ -67,8 +84,6 @@ body {
     background: goldenrod;
 }
 
-/* ********3 HTML Pages********* */
-
 .single-column {
     width: 50%;
     min-width: 400px;
@@ -95,6 +110,12 @@ h1 {
     text-align: center;
 }
 
-@media screen and (max-width: 835px) and (min-width: 424px) {
-    
+@media screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #logo {
+        margin-left: auto;
+    }
 }
