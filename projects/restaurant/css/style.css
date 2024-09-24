@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.background-home {
+    background-color: burlywood;
+    padding: 48px 0px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../image/homepage-hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ********Three Pages********* */
+
+#navbar {
+    background: #e6d71f;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #335E76;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#logo img {
+    width: 150px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, rgb(230,215,31), #cebd2c);
+}
+
+.background {
+    background-color: #cebd2c;
+    padding: 48px 0px;
+}
