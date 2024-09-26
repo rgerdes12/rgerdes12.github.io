@@ -16,14 +16,14 @@ body {
     text-align: center;
 }
 
+
 #teams img {
     width: 48%;
     min-width: 50px;
     max-width: 1200px;
     display: inline-block;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #teams {
@@ -75,6 +75,12 @@ body {
 #team-column {
     display: flex;
     justify-content: center;
+}
+
+#vs {
+    margin: 60px;
+    margin-top: 220px;
+    font-size: large;
 }
 
 #buttons a {
