@@ -35,7 +35,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #335E76;
-    padding: 24px;
+    padding: 12px;
 }
 
 #navbar #logo {
@@ -47,7 +47,7 @@ body {
 }
 
 #logo img {
-    width: 150px;
+    width: 110px;
 }
 
 #navbar a:hover {
@@ -110,6 +110,10 @@ body {
     margin-bottom: auto;
 }
 
+#menu ul {
+    padding-right: 50px;
+}
+
 #entrees img {
     width: 48%;
     min-width: 50px;
@@ -138,6 +142,10 @@ body {
     margin-bottom: auto;
 }
 
+#entrees ul {
+    padding-right: 40px;
+}
+
 #desserts img {
     width: 48%;
     min-width: 50px;
@@ -160,11 +168,31 @@ body {
     margin-top: 60px;
     background-color: #DBAED1;
     padding: 30px;
+    margin-bottom: 150px;
 }
 
 #desserts h2 {
     margin-bottom: auto;
 }
+
+#desserts ul {
+    padding-right: 40px;
+}
+
+#footer {
+    background: #e6d71f;
+    color: #335E76;
+    padding: 12px;}
+    
+#footer a {
+    text-decoration: none;
+    color: #335E76;}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;}
 
 @media screen and (max-width: 870px) {
     #navbar {
@@ -173,5 +201,9 @@ body {
 
     #logo {
         margin-left: auto;
+    }
+
+    #footer {
+        justify-content: center;
     }
 }
