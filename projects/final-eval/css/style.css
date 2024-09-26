@@ -107,10 +107,7 @@ body {
 @media screen and (max-width: 1054px) {
     #team-column {
         flex-direction: row;
-        margin: auto;
-    }
-
-    #logo {
         margin-left: auto;
+        margin-right: auto;
     }
 }
