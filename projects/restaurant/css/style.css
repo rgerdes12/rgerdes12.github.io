@@ -194,7 +194,7 @@ body {
     display: flex;
     justify-content: space-between;}
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 860px) {
     #navbar {
         flex-direction: column;
     }
