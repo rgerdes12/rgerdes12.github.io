@@ -182,17 +182,21 @@ body {
 #footer {
     background: #e6d71f;
     color: #335E76;
-    padding: 12px;}
+    padding: 12px;
+}
     
 #footer a {
     text-decoration: none;
-    color: #335E76;}
+    color: #335E76;
+    text-align: center;
+}
     
 #footer-navbar {
-    width: 800px;
-    margin: 0px auto;
+    width: 450px;
+    margin: px auto;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 860px) {
     #navbar {
@@ -204,6 +208,6 @@ body {
     }
 
     #footer {
-        justify-content: center;
+        
     }
 }
