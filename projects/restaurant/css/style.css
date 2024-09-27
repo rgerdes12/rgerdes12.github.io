@@ -73,7 +73,7 @@ body {
     border: 5px solid #335E76;
     border-radius: 30px;
     width: 50%;
-    min-width: 500px;
+    min-width: 800px;
     max-width: 300px;
     display: block;
     margin: auto;
@@ -207,11 +207,27 @@ body {
         margin-left: auto;
     }
 
+    #featured-item {
+        text-align: center;
+        border: 5px solid #335E76;
+        border-radius: 30px;
+        width: 50%;
+        min-width: 500px;
+        max-width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        padding-inline: 60px 60px 60px;
+        background-color: #DBAED1;
+    }
+
     #footer-navbar {
         width: 400px;
         margin: 0px auto;
         display: flex;
         justify-content: space-between;
         margin-bottom: 0px;
+        display: inline;
+        margin: auto;
     }
 }
