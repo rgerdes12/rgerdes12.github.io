@@ -188,17 +188,17 @@ body {
 #footer a {
     text-decoration: none;
     color: #335E76;
-    text-align: center;
 }
     
 #footer-navbar {
-    width: 450px;
-    margin: px auto;
+    width: 800px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 520px) {
     #navbar {
         flex-direction: column;
     }
@@ -207,7 +207,11 @@ body {
         margin-left: auto;
     }
 
-    #footer {
-        
+    #footer-navbar {
+        width: 450px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
     }
 }
