@@ -191,7 +191,7 @@ body {
 }
     
 #footer-navbar {
-    width: 800px;
+    width: 400px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,7 @@ body {
     }
 
     #footer-navbar {
-        width: 450px;
+        width: 400px;
         margin: 0px auto;
         display: flex;
         justify-content: space-between;
