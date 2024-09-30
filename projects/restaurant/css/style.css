@@ -208,7 +208,7 @@ span {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 520px) {
     #navbar {
         flex-direction: column;
     }
@@ -218,15 +218,16 @@ span {
     }
 
     #featured-item {
-        min-width: 480px;
+        min-width: 350px;
         max-width: 1200px;
-        padding: 10px;
+        padding: 8px;
         display: block;
-        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #featured-item img {
-        min-width: 290px;
+        min-width: 250px;
         max-width: 120px;
     }
 
