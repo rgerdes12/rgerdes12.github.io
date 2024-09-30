@@ -222,8 +222,6 @@ span {
         max-width: 1200px;
         padding: 8px;
         display: block;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     #featured-item img {
@@ -233,6 +231,21 @@ span {
 
     #featured-item h2 {
         font-size: medium;
+    }
+
+    #menu,
+    #entrees,
+    #desserts {
+        min-width: 350px;
+        max-width: 1200px;
+    }
+
+    #menu img,
+    #entrees img,
+    #desserts img {
+        display: flex;
+        min-width: 90%;
+        max-width: 50%;
     }
 
     #footer-navbar {
