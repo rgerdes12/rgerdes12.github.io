@@ -50,6 +50,11 @@ body {
     width: 110px;
 }
 
+#title {
+    font-family: "mystery quest";
+    font-size: 35px;
+}
+
 #navbar a:hover {
     background: linear-gradient(to top, rgb(230,215,31), #cebd2c);
 }
@@ -139,6 +144,10 @@ body {
     padding: 30px;
 }
 
+span {
+    font: "mystery quest";
+}
+
 #entrees h2 {
     margin-bottom: auto;
 }
@@ -199,7 +208,7 @@ body {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 825px) {
     #navbar {
         flex-direction: column;
     }
@@ -209,14 +218,25 @@ body {
     }
 
     #featured-item {
-        min-width: 400px;
-        max-width: 300px;
+        min-width: 480px;
+        max-width: 1200px;
+        padding: 10px;
+        display: block;
+        margin: auto;
+    }
+
+    #featured-item img {
+        min-width: 290px;
+        max-width: 120px;
+    }
+
+    #featured-item h2 {
+        font-size: medium;
     }
 
     #footer-navbar {
         width: 400px;
         margin: 0px auto;
-        display: flex;
         justify-content: space-between;
         margin-bottom: 0px;
         display: inline;
